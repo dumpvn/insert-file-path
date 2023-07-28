@@ -15,7 +15,7 @@
     "commands": [
       {
         "command": "insert-file-path.helloWorld",
-        "title": "Hello World"
+        "title": "Insert File Path"
       }
     ]
   },
