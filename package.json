@@ -1,7 +1,7 @@
 {
   "name": "insert-file-path",
-  "displayName": "insert-file-path",
-  "description": "insert file path",
+  "displayName": "Insert File Path",
+  "description": "Simple vscode extesion to insert full file path",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.80.0"
