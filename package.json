@@ -2,7 +2,7 @@
   "name": "insert-file-path",
   "displayName": "Insert File Path",
   "description": "Simple vscode extesion to insert full file path",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": "https://github.com/dumpvn/insert-file-path",
   "engines": {
     "vscode": "^1.80.0"
@@ -20,13 +20,13 @@
       }
     ],
     "keybindings": [
-			{
-				"command": "insert-file-path.helloWorld",
-				"key": "ctrl+alt+i",
-				"mac": "shift+cmd+i",
-				"when": "editorTextFocus"
-			}
-		]
+      {
+        "command": "insert-file-path.helloWorld",
+        "key": "ctrl+alt+i",
+        "mac": "shift+cmd+i",
+        "when": "editorTextFocus"
+      }
+    ]
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
