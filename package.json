@@ -17,7 +17,15 @@
         "command": "insert-file-path.helloWorld",
         "title": "Insert File Path"
       }
-    ]
+    ],
+    "keybindings": [
+			{
+				"command": "insert-file-path.helloWorld",
+				"key": "ctrl+alt+i",
+				"mac": "shift+cmd+i",
+				"when": "editorTextFocus"
+			}
+		]
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
