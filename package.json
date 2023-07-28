@@ -2,7 +2,7 @@
   "name": "insert-file-path",
   "displayName": "Insert File Path",
   "description": "Simple vscode extesion to insert full file path",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "dumpvn",
   "repository": "https://github.com/dumpvn/insert-file-path",
   "engines": {
