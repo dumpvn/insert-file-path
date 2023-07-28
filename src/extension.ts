@@ -16,7 +16,16 @@ export function activate(context: vscode.ExtensionContext) {
 	let disposable = vscode.commands.registerCommand('insert-file-path.helloWorld', () => {
 		// The code you place here will be executed every time your command is executed
 		// Display a message box to the user
-		vscode.window.showInformationMessage('Hello World from insert-file-path!');
+		const selections = vscode.window.activeTextEditor?.selections;
+		vscode.window.activeTextEditor?.edit((editBuilder) => {
+			selections?.forEach((selection) => {
+				editBuilder.replace(selection, '');
+				const fileName = vscode.window.activeTextEditor?.document.fileName;
+				if (fileName) {
+					editBuilder.insert(selection.active, fileName);
+				}
+			});
+		});
 	});
 
 	context.subscriptions.push(disposable);
