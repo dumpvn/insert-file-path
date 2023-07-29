@@ -5,6 +5,7 @@
   "version": "0.0.3",
   "publisher": "dumpvn",
   "repository": "https://github.com/dumpvn/insert-file-path",
+  "icon": "resources/icons8_path_128px.png",
   "engines": {
     "vscode": "^1.80.0"
   },
